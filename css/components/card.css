@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+  border-radius: 4px;                           /* radio pequeño */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);     /* sombra ligera */
+}
+.card img {
+  width: 350px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+.card:hover{
+  background-color: rgb(241, 217, 164);
+}
